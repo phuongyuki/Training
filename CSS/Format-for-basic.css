@@ -1,0 +1,124 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('../Fonts/KOMTXTK.woff'); 
+}
+
+div{
+    font-family: myFirstFont;
+    padding-left: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    float: inline-end;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#container{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: darkseagreen;
+    flex-wrap: wrap;
+}
+
+.item{
+    align-self: center;
+}
+
+@media only screen and (max-width : 1000px){
+    body{
+        background-color: blueviolet;
+    }
+}
+
+.container-overflow{
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+    margin-top: 20px;
+    position: relative;
+    background-color: burlywood;
+}
+
+div.top-pos {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid red;
+}
+  
+div.a {
+    position: absolute;
+    top: 0;
+    border: 1px solid blue;
+    margin: 5px;
+} 
+  
+div.b {
+    position: absolute;
+    top: 100px;
+    border: 1px solid green;
+    margin: 5px;
+}
+
+div.left-pos {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid coral;
+}
+
+div.c {
+    position: absolute;
+    left: auto;
+    width: 100px;
+    border: 1px solid royalblue;
+    margin: 5px;
+} 
+  
+div.d {
+    position: absolute;
+    left: 150px;
+    width: 170px;
+    border: 1px solid silver;
+    margin: 5px;
+}
+
+.background{
+    z-index: -1;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    background-color: cornsilk;
+    color: darkgreen;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: medium;
+    font-family: myFirstFont;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: darkolivegreen;
+    color: white;
+}
