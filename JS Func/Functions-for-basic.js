@@ -58,3 +58,53 @@ function forEachFunction(item, index){
         index = "Chu Nhat";
     document.getElementById("foreach-function").innerHTML += item + ": " + index + "<br>";
 }
+
+var subject = ["Math", "History", "Chemistry"];
+document.getElementById("push-function").innerHTML = subject;
+function pushFucntion(){
+    subject.push("Literature");
+    document.getElementById("push-function").innerHTML = subject;
+}
+
+function mapFunction(){
+    var date = [2, 4, 6, 8];
+    var n = date.map(Math.pow);
+    x = document.getElementById("map-function")
+    x.innerHTML = n;
+}
+
+var nums = [31, 7, 9, 7];
+function reduceFunction(total, num){
+    return total - num;
+}
+function callReduceFunction(){
+    document.getElementById("reduce-function").innerHTML = nums.reduce(reduceFunction);
+}
+
+var date = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+function filterFunction(date){
+    return date.length > 6;
+}
+function callFilterFunction(){
+    document.getElementById("filter-function").innerHTML = date.filter(filterFunction);
+}
+
+function checkDateFunction(){
+    var d = new Date();
+    var n = d.getDay();
+    if (n == 1)
+        str = "Monday";
+    else if (n == 2)
+        str = "Tuesday";
+    else if (n == 3)
+        str = "Wednesday";
+    else if (n == 4)
+        str = "Thursday";
+    else if (n == 5)
+        str = "Friday";
+    else if (n == 6)
+        str = "Saturday";
+    else if (n == 0)
+        str = "Sunday";
+    document.getElementById("getDay-function").innerHTML = "Today is " + str;
+}

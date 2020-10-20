@@ -71,34 +71,78 @@
 
         </div>
         
-        <button onclick="checkIncludes()" class = "btn">Click me</button>
-        <p id = "includes-function"></p>
+        <table>
+            <tr>
+                <td><button onclick="checkIncludes()" class = "btn">Click me</button></td>
+                <td><p id = "includes-function"></p></td>
+            </tr>
+            <tr>
+                <td><button onclick="splitFunction()" class = "btn">Try it!</button></td>
+                <td><p id = "split-function"></p></td>
+            </tr>
 
-        <button onclick="splitFunction()" class = "btn">Try it!</button>
-        <p id = "split-function"></p>
+            <tr>
+                <td><button onclick="stringifyJSON()" class = "btn">Stringify</button></td>
+                <td><p id = "JSON-Stringify"></p></td>
+            </tr>
+            
+            <tr>
+                <td><button onclick="toStringCheck()" class = "btn">String Convert</button></td>
+                <td><p id = "to-string-function"></p></td>
+            </tr>
 
-        <button onclick="stringifyJSON()" class = "btn">Stringify</button>
-        <p id = "JSON-Stringify"></p>
+            <tr>
+                <td><button onclick="checkArray()" class = "btn">Check Array</button></td>
+                <td><p id = "array-function"></p></td>
+            </tr>
 
-        <button onclick="toStringCheck()" class = "btn">String Convert</button>
-        <p id = "to-string-function"></p>
+            <tr>
+                <td><button onclick="sortFunction()" class = "btn">Sort Array</button></td>
+                <td><p id = "sort-function"></p></td>
+                <script>
+                    var date = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+                    document.getElementById("sort-function").innerHTML = date;
+                </script>
+            </tr>
 
-        <button onclick="checkArray()" class = "btn">Check Array</button>
-        <p id = "array-function"></p>
+            <tr>
+                <td><button onclick="toFixedFunction()" class = "btn">Round Number</button></td>
+                <td><p id = "tofixed-function"></p></td>
+            </tr>
 
-        <button onclick="sortFunction()" class = "btn">Sort Array</button>
-        <p id = "sort-function"></p>
-        <script>
-            var date = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-            document.getElementById("sort-function").innerHTML = date;
-        </script>
+            <tr>
+                <td id = "foreach-function"></td>
+                <td></td>
+            </tr>
 
-        <button onclick="toFixedFunction()" class = "btn">Round Number</button>
-        <p id = "tofixed-function"></p>
+            <tr>
+                <td><button onclick="pushFucntion()" class = "btn">Add Subject</button></td>
+                <td><p id = "push-function"></p></td>
+            </tr>
 
-        <p id = "foreach-function"></p>
+            <tr>
+                <td><button onclick="mapFunction()" class = "btn">Check length</button></td>
+                <td><p id = "map-function"></p></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="callReduceFunction()" class = "btn">Check Reduce</button></td>
+                <td><p id = "reduce-function"></p></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="callFilterFunction()" class = "btn">Check Filter</button></td>
+                <td><p id = "filter-function"></p></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="checkDateFunction()" class = "btn">Check Day</button></td>
+                <td><p id = "getDay-function"></p></td>
+            </tr>
+
+        </table>
 
         <script src = "../JS Func/Functions-for-basic.js"></script>
-
+        
     </body>
 </html>
