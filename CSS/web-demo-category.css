@@ -40,7 +40,7 @@
 
 .col-sm p{
     margin: 0;
-    padding-left: 130px;
+    padding-left: 115px;
 }
 
 .col-sm-2 ul{
@@ -64,4 +64,13 @@
 .col-sm-2 ul li a:hover{
     text-decoration: none;
     color: black;
+}
+
+.col-sm a{
+    color: whitesmoke;
+}
+
+.col-sm a:hover{
+    text-decoration: none;
+    color: rosybrown;
 }

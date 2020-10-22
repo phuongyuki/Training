@@ -1,0 +1,35 @@
+@font-face{
+    font-family: myFont;
+    src: url('../fonts/KOM/KOMTXTK.woff')
+}
+
+*{
+    font-family: myFont;
+}
+
+.my-nav{
+    font-size: 30px;
+    background-image: url('../images/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+}
+
+.header{
+    height: 600px;
+}
+
+.nav-item a{
+    color: whitesmoke;
+}
+
+.nav-item a:hover{
+    font-weight: bolder;
+    color: crimson;
+}
+
+.footer{
+    background-color: skyblue;
+    height: 100px;
+}
