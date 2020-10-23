@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'KOMTXTK';
+	src: url('./KOMTXTK.eot');
+	src: local('KOMTXTK'), url('./KOMTXTK.woff') format('woff'), url('./KOMTXTK.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_272">Text with this font applied</p> */
+.fontsforweb_fontid_272 {
+	font-family: 'KOMTXTK' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

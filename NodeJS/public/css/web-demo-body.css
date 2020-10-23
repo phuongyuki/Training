@@ -3,30 +3,30 @@
     color: wheat;
 }
 
-.row p{
-    margin: 10px;
+.row{
+    padding-left: 50px;
 }
 
-.col{
-    margin: 20px;
+.col-sm{
+    margin-top: 20px;
 }
 
-.col img{
+.col-sm img{
     width: 300px;
     height: 200px;
 }
 
-.col a{
+.col-sm a{
     font-size: 20px;
     /* text-align: center; */
     color: wheat;
 }
 
-.col p{
-    padding-left: 115px;
+.col-sm p{
+    padding-left: 110px;
 }
 
-.col a:hover{
+.col-sm a:hover{
     text-decoration: none;
     color: sandybrown;
 }

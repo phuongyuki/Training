@@ -7,29 +7,39 @@
     font-family: myFont;
 }
 
-.my-nav{
-    font-size: 30px;
-    background-image: url('../images/bg-header.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: local;
-    background-size: cover;
+.mynav{
+    background-color: black;
+    width: 100%;
 }
 
-.header{
-    height: 600px;
+.mycontainer{
+    position: relative;
+    width: 100%;
 }
 
-.nav-item a{
-    color: whitesmoke;
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.nav-item a:hover{
-    font-weight: bolder;
-    color: crimson;
-}
+    .navbar-expand .navbar-nav > li{
+        padding: 0 20px 5px;
+    }
 
-.footer{
+    .navbar-expand .navbar-nav > li > a{
+        color: whitesmoke;
+        font-size: 30px;
+    }
+
+    .navbar-expand .navbar-nav > li > a:hover{
+        color: lightblue;
+        text-decoration: none;
+        font-weight: bolder;
+        color: crimson;
+    }
+
+.myfooter{
     background-color: skyblue;
     height: 100px;
 }
