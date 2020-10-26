@@ -1,11 +1,11 @@
-@font-face{
+/* @font-face{
     font-family: myFont;
     src: url('../fonts/KOM/KOMTXTK.woff')
 }
 
 *{
     font-family: myFont;
-}
+} */
 
 .mynav{
     background-color: black;
@@ -42,4 +42,27 @@
 .myfooter{
     background-color: skyblue;
     height: 100px;
+}
+
+.right-nav{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.right-nav-item{
+    display: inline;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.right-nav-item > a{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.right-nav-item > a:hover{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
 }
