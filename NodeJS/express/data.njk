@@ -1,0 +1,19 @@
+{# <html>
+<style>
+    ul{
+        list-style-type: none;
+        font-size: 25px;
+}
+</style>
+<body>
+    <ul>
+        {% for user in users %}
+            <li> Username: {{user.username}} </li>
+            <li> First name: {{user.firstname}} </li>
+            <li> Last name: {{user.lastname}} </li>
+            <li> Email: {{user.email}} </li>
+            <li> Password {{user.password}} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html> #}
